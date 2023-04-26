@@ -45,6 +45,6 @@ jobs:
           push: true
           tags: |
             josuablejeru/ansible-docker:latest
-            user/app:0.1.0
+            josuablejeru/ansible-docker:0.1.0
             ghcr.io/josuablejeru/ansible-docker:latest
             ghcr.io/josuablejeru/ansible-docker:0.1.0
