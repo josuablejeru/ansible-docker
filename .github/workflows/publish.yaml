@@ -44,7 +44,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            josuablejeru/ansible:latest
+            josuablejeru/ansible-docker:latest
             user/app:0.1.0
-            ghcr.io/josuablejeru/ansible:latest
-            ghcr.io/josuablejeru/ansible:0.1.0
+            ghcr.io/josuablejeru/ansible-docker:latest
+            ghcr.io/josuablejeru/ansible-docker:0.1.0
