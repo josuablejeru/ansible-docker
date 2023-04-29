@@ -7,9 +7,12 @@ Pull the latest image from Docker Hub
 $ docker push josuablejeru/ansible-docker:latest
 ```
 
-Pull the latest image from Github
+Pull the latest image from Github or Docker Hub
 ```bash
 $ docker pull ghcr.io/josuablejeru/ansible-docker:0.1.0
+```
+```bash
+$ docker pull josuablejeru/ansible-docker:0.1.0
 ```
 
 
