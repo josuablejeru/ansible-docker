@@ -19,7 +19,9 @@ The following is a example for Gitlab:
 
 ```yaml
 default:
-  image: josuablejeru/ansible-docker:latest
+  image: 
+    name: josuablejeru/ansible-docker:latest
+    entrypoint: [""]
 
 stages:
   - linting
