@@ -1,5 +1,7 @@
 # Ansible Docker
 
+![Docker Hub](https://img.shields.io/docker/pulls/josuablejeru/ansible-docker?style=for-the-badge) ![GitHub License](https://img.shields.io/github/license/josuablejeru/ansible-docker?style=for-the-badge)
+
 All the tools ansible tools inside a container image.
 
 Pull the latest image from Docker Hub
