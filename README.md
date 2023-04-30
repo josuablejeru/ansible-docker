@@ -2,12 +2,7 @@
 
 ![Docker Hub](https://img.shields.io/docker/pulls/josuablejeru/ansible-docker?style=for-the-badge) ![GitHub License](https://img.shields.io/github/license/josuablejeru/ansible-docker?style=for-the-badge)
 
-All the tools ansible tools inside a container image.
-
-Pull the latest image from Docker Hub
-```bash
-$ docker push josuablejeru/ansible-docker:latest
-```
+*"All the ansible tools inside one container image."*
 
 Pull the latest image from Github or Docker Hub
 ```bash
