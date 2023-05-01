@@ -26,6 +26,11 @@ default:
 stages:
   - linting
 
+yaml-lint:
+  stage: linting
+  # Lint all YAML files in a directory
+  script: yamllint .
+
 ansible-lint:
   stage: linting
   artifacts:
@@ -36,3 +41,9 @@ ansible-lint:
     - ansible-lint -v --show-relpath -f pep8 --nocolor | ansible-lint-junit -o ansible-lint.xml
 ```
 
+## 🛠️ Tools included
+
+- ansible
+- ansible-lint
+- ansible-lint-junit
+- yamllint
